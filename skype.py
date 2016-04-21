@@ -173,6 +173,9 @@ class SkypeBot():
         for i in range(4):
             self.send_message(chat, "WUBWUBWUBWUB")
 
+    def handle_brainpower(self, chat, content):
+        self.send_message(chat, "O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA")
+        
     def send_message(self, chat, msg):
         if not args.test:
             chat.SendMessage(msg)
